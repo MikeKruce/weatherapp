@@ -4,6 +4,9 @@ After searching your city, you are shown your current temp, 5 day forecast, and 
 
 Github: https://github.com/MikeKruce/weatherapp
 
+Link: https://mikekruce.github.io/weatherapp/
+
+
 
 ![Screenshot 2024-09-04 182614](https://github.com/user-attachments/assets/8f5c72b1-ca31-4e78-b620-8ac05898aa04)
 

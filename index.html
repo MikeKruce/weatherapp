@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+    <!-- Search Field below the Title -->
+    <div id="searchContainer">
+        <input type="text" id="cityInput" placeholder="Search City or Zip Code">
+        <button id="searchBtn"><i class="fas fa-search"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Weather Information Section -->
+    <section id="weatherInfoContainer">
+      <!-- Current Weather Section -->
+      <div id="currentWeather">
+        <!-- Content for current weather will be dynamically added here -->
+        <h2>Current Weather</h2>
+      </div>
+  
+      <!-- 5-Day Forecast Section -->
+      <div id="forecast">
+        <h2>5-Day Forecast</h2>
+        <div id="forecastDetails"></div>
+      </div>
+  
+      <!-- Precipitation Radar Map Section -->
+      <div id="radarContainer">
+        <h2>Precipitation Radar</h2>
+        <div id="precipitationMap"></div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 Mike's Weather Dashboard. All rights reserved.</p>
+    <p>Data provided by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>.</p>
+  </footer>
+
+  <!-- Include Leaflet.js Library -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Main JavaScript -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
